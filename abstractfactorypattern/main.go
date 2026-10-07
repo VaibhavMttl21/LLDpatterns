@@ -19,3 +19,19 @@ func main() {
 	button.render()
 	textbox.renderT()
 }
+
+// Factory
+//    │
+//    │ creates
+//    ↓
+// MacButton
+//    │
+//    │ returned as
+//    ↓
+// Button interface
+//    │
+//    │ client calls methods
+//    ↓
+// Render()
+// Click()
+// Resize()
